@@ -3,7 +3,7 @@ import css from './Statistics.module.css';
 const Statistics = (props) => {
     return (
         <section className={css.statistics}>
-            {props.title ? <h2 className={css.title}>{props.title}</h2> : <h2 className={css.title}>UPLOAD STATS</h2>}
+            {props.title ? <h2 className={css.title}>{props.title}</h2> : <h2 className={css.title}>Upload stats</h2>}
 
             <ul className={css.list}>
 
