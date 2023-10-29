@@ -9,10 +9,8 @@ const FriendList = ({friends}) => {
                                 name={friend.name} 
                                 avatar={friend.avatar} 
                                 isOnline={friend.isOnline}
-                            />
+                                />
                             </li>
-                    
-                    
                 })}
             </ul>
     )
